@@ -1,50 +1,47 @@
 
-# Tucker
+# Challenge-09
 
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
 ## Description
 
-asdflkj
+This is a node app built with inquirer that generates a readme template from user input.
 
 
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
+* [Video](#video)
 * [GitHub](#github)
-* [Contact](#contact)
 * [License](#license)
 
 ## Installation
+Install inquirer v8 as follows: 
 
-asfdjie
+```
+npm i inquirer@8
+```
 
 ## Usage
+Run
 
-fasdiou
+```
+node index.js
+```
 
-## Contributing
+then answer the prompts.
 
-aw;erlkj
+## Video
 
-## Tests
-
-fasdflknwe
+* https://drive.google.com/file/d/17ei6_sz1t_-lG8qlake7wBSSQtCqAifi/view?usp=sharing
 
 ## Github
 
-* https://github.com/tuckerreiland
-
-## Contact
-
-For questions, please contact:
-* asdlkj
+* https://github.com/tuckerreiland/challenge-09
 
 ## License
 
-Mozilla Public License
+MIT License
 
