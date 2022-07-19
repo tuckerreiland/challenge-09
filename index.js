@@ -81,6 +81,24 @@ let markdown = `
 # ${answers.title}
 
 `
+if (answers.license === 'Apache License'){
+    markdown += `
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+    `
+}
+
+if (answers.license === 'MIT License'){
+    markdown += `
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    `
+}
+
+if (answers.license === 'Mozilla Public License'){
+    markdown += `
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+    `
+}
+
 
 if (answers.description != '') {
     markdown += `
@@ -154,11 +172,14 @@ For questions, please contact:
 `
 }
 
+if (answers.license != '') {
+    markdown +=
 `## License
 
 ${answers.license}
 
 `
+}
 
         fs.writeFile('./README.md', markdown, err => {
             if (err) {
